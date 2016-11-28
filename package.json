@@ -1,0 +1,16 @@
+{
+  "main": "app/index.html",
+  "name": "app",
+  "version": "0.1",
+  "window": {
+    "toolbar": false,
+    "icon":false
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "child_process": "^1.0.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "phantomjs": "^2.1.7"
+  }
+}

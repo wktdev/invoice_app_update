@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		
+		<!--<script src="http://livejs.com/live.js"></script>-->
+		<script type="text/javascript" src="js/jquery.js" charset="utf-8"></script>
+		<script src="js/jquery-ui/jquery-ui.js"></script>
+		<script type='text/javascript' src="/js/json_import.js"></script>
+		<script type='text/javascript' src="/js/app.js"></script>
+		<link rel="stylesheet" href="js/jquery-ui/jquery-ui.css">
+		<link rel="stylesheet" href="/css/app.css">
+	</head>
+	<!--______________________________________________________BEGIN APP-->
+	<body>
+	<div class="background-image">
+	<div id="loadingDiv">
+	<img src="imgs/spinner.gif" width="120px" height="auto">
+		<h1>Generating PDF</h1>
+	</div>
+		<div class="app">
+			
+			<form class="submit-data" method="post" action="/" >
+				{{>user_info}}
+				
+				
+				<div class="invoice-items">
+				<input class="loader-button" type="file" id="fileInput"/>
+					{{>invoice_item}}
+					
+				</div>
+				<div class="totals">
+					<ul>
+						
+						<li>
+							<input class="quantity-total" type="text" placeholder="Quantity" value="{{item.totalHours}}">
+						</li>
+						<li>
+							<input class="totals-total" type="text" placeholder="Total" value="{{item.totalPayment}}">
+						</li>
+					</ul>
+				</div>
+				<div >  <label></label><input class="complete" type = "button" name="submit" value="Submit">
+				
+			</form>
+			<div id="rate-dialog" title="Rate">
+				<input type="number" id="rate-set-all">
+			</div>
+			<div id="quantity-dialog" title="Quantity">
+				<input type="number" id="quantity-set-all">
+			</div>
+		</div>
+		{{>footer}}
+
+	</div>
+		
+	
+</div>
+	
+</body>
+<!--______________________________________________________END APP-->
+</html>

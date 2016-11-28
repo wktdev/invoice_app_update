@@ -1,0 +1,271 @@
+*{
+  font-family:"Arial", Helvetica, sans-serif;
+}
+
+body{
+ background-color: rgba(0, 105, 198, 0.57);
+}
+
+#loadingDiv{
+  padding-top:150px;
+  background-repeat:no-repeat;
+  margin:0 auto;
+  background-color:transparent;
+  width:300px;
+
+
+}
+
+#loadingDiv h1{
+  position:relative;
+  left:-50px;
+}
+
+
+.background-image{
+/*  background-image: url("../imgs/background.png");*/
+
+
+
+}
+
+.load-json{
+  text-align:center;
+  font-size:3em;
+  color:rgba(38, 37, 37, 0.8);
+  background-color:rgba(85, 0, 128, 0.47);
+  height:100px;
+  position:relative;
+  top:70px;
+}
+.loader-button{
+  position:relative;
+  top:-55px;
+  left:0px;
+  width:90px;
+}
+.app{
+position:relative;
+top:50px;
+  width:800px;
+  margin:0 auto;
+  padding-bottom:50px;
+  border-radius:5px;
+  background-color:#183369;
+}
+.invoice-item > ul{
+  margin-bottom:-15px;
+}
+
+li{
+  display:inline-block;
+}
+
+input{
+  width:85px;
+  margin-left:5px;
+
+  border-width:1px;
+  border-radius:3px;
+
+}
+
+hr{
+  position:relative;
+  top:10px;
+}
+.button{
+  width:70px;
+}
+.input-student-field{
+  width:150px;
+}
+/*_________________________________BEGIN user info___*/
+#user-info input{
+	width:100px;
+	margin-left:5px;
+	border::1px;
+
+}
+
+
+
+
+#user-info{
+  margin:0 auto;
+	height:150px; 
+
+	background-color:rgb(255, 204, 0);
+  padding-top:10px;
+  border-radius:5px;
+
+}
+
+
+#user-info label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 110px;
+    text-align: right;
+}
+#user-info input {
+  display: inline-block;
+  float: left;
+  width:520px;
+  border-style:none;
+  border-width:1px;
+  height:20px;
+  font-size:0.9em;
+  font-size: 1em;
+    padding-left: 2px;
+}
+
+.user-field{
+	margin-bottom:5px;
+	height:20px;
+}
+
+
+
+.offset{
+
+  position:relative;
+  padding-left:3px;
+}
+
+.make-box{
+
+  height:100px;
+  width:20%;
+  float:right;
+  position:relative;
+  top:-10px;
+}
+
+#user-info  .create-item{
+
+float:right;
+  height:85px;
+  width:100px;
+  background-color:rgb(135, 131, 169);
+  border-radius:0px;
+
+
+}
+
+#user-info  .create-batch{
+
+background-color:rgba(152, 183, 168, 0.85);
+float:right;
+  height:75px;
+  width:100px;
+   border-radius:0px;
+}
+
+
+
+.heading-tiles{
+  margin-left:160px;
+  font-size:15px;
+
+}
+
+.heading-tiles span{
+  padding-left:0px;
+  color:white;
+
+}
+
+.small-font{
+  font-size:10px;
+  display:inline-block;
+  color:orange;
+}
+
+footer{
+  width:300px;
+  height:20px;
+
+}
+
+.student{
+  width:150px;
+}
+
+
+.date-heading{
+  position:relative;
+  left:20px;
+}
+
+
+
+
+
+.student-heading{
+  position:relative;
+  left:100px;
+}
+
+
+.rate-heading{
+  position:relative;
+  left:170px;
+  padding-right:60px;
+
+}
+
+
+
+.quantity-heading{
+  position:relative;
+  left:120px;
+  width:20px;
+  padding-left:10px;
+}
+
+.total-heading{
+  position:relative;
+  left:120px;
+}
+
+
+.totals{
+
+  width:300px;
+  position:relative;
+  left:519px;
+}
+
+.totals p{
+  margin-left:20px;
+  color:white;
+}
+
+.heading-tiles li{
+  padding:0px;
+
+}
+
+.hover{
+  opacity:0.6;
+}
+
+footer{
+  position:relative;
+  top:-40px;
+  left:10px;
+}
+
+.complete{
+    position: relative;
+    left: 632px;
+    top: 20px;
+    font-size: 1.4em;
+    border-style:none;
+
+
+}
+
+/*_________________________________END user info___*/

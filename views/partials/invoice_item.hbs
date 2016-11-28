@@ -1,0 +1,30 @@
+{{#each item.entries}}
+
+<div class="invoice-item">
+    <ul>
+        <li>
+            <input class="button copy" type="button" value="Copy">
+        </li>
+        <li>
+            <input class="button delete" type="button" value="Delete">
+        </li>
+        <li>
+            <input class="date" type="text" placeholder="Date" value="{{this.date}}">
+        </li>
+        <li>
+            <input class="student" type="text" placeholder="Student" value="{{this.student}}">
+        </li>
+        <li>
+            <input class="rate" type="text" placeholder="Rate" value="{{this.rate}}">
+        </li>
+        <li>
+            <input class="quantity" type="text" placeholder="Quantity" value="{{this.quantity}}">
+        </li>
+        <li>
+            <input class="total" type="text" placeholder="Total" value="{{this.total}}">
+        </li>
+    </ul>
+    <hr>
+</div>
+
+{{/each}}
